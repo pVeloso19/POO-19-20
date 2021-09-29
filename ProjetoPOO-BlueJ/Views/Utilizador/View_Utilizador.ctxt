@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=View_Utilizador
+comment1.params=controller\ s\ cod\ nome
+comment1.target=View_Utilizador(Controllers.I_Controllers,\ Models.TrazAqui,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ Parametrizado\ de\ View_Utilizador\r\n\ Aceita\ como\ parametros\ os\ valores\ para\ cada\ Variavel\ de\ Instancia\r\n
+comment2.params=
+comment2.target=void\ relload()
+comment2.text=\r\n\ Recarrega\ o\ menu\ do\ Utilizador\ ja\ com\ o\ seu\ nome\ e\ numero\ de\ notificacoes\r\n
+comment3.params=
+comment3.target=java.lang.String\ showMenu()
+comment3.text=\r\n\ Apresenta\ o\ menu\ com\ informacoes\ importantes\ ao\ utilizador\r\n\r\n\ @return\ String\ correspondente\ ao\ que\ foi\ intruzido\ pelo\ utilizador\ no\ input\r\n
+comment4.params=
+comment4.target=void\ run()
+comment4.text=\r\n\ Funcao\ que\ corre\ a\ view\ com\ todas\ as\ funcoes\ anterioes,\ de\ maneira\r\n\ a\ interligar\ os\ diferentes\ processos\r\n
+numComments=5

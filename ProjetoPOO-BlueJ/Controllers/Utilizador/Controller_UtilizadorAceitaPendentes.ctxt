@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Controller_UtilizadorAceitaPendentes
+comment1.params=s\ cod
+comment1.target=Controller_UtilizadorAceitaPendentes(Models.TrazAqui,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ Parametrizado\ de\ Controller_UtilizadorAceitaPendentes\r\n\ Aceita\ como\ parametros\ os\ valores\ para\ cada\ Variavel\ de\ Instancia\r\n
+comment2.params=opcao
+comment2.target=void\ processa(java.util.List)
+comment2.text=\r\n\ Com\ base\ nos\ inputs\ do\ Utilizador,\ tratar\ de\ Aceitar\ Encomendas\ Pendentes\r\n\r\n\ @param\ opcao\ correspondente\ a\ lista\ de\ opcoes\ inseridas\ pelo\ Utilizador\r\n
+numComments=3

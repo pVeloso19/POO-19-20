@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=View_Sistema
+comment1.params=controller
+comment1.target=View_Sistema(Controllers.I_Controllers)
+comment1.text=\r\n\ Construtor\ Parametrizado\ de\ View_Historico\r\n\ Aceita\ como\ parametros\ os\ valores\ para\ cada\ Variavel\ de\ Instancia\r\n
+comment2.params=
+comment2.target=java.lang.String\ showMenu()
+comment2.text=\r\n\ Apresenta\ no\ ecra\ o\ menu\ da\ seccao\ Sistema\r\n
+comment3.params=
+comment3.target=void\ run()
+comment3.text=\r\n\ Funcao\ que\ corre\ a\ view\ com\ todas\ as\ funcoes\ anterioes,\ de\ maneira\r\n\ a\ interligar\ os\ diferentes\ processos\r\n
+numComments=4

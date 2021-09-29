@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LeituraFicheiros
+comment1.params=
+comment1.target=Models.TrazAqui\ lerFicheiro()
+comment1.text=\r\n\ Metodo\ que\ realiza\ a\ leitura\ do\ ficheiro\ logs.\r\n\ Retorna\ o\ TrazAqui\ com\ os\ dados\ defalt\r\n\r\n\ Depois\ deve\ abrir\ a\ aplicacao\ com\ o\ estado\ em\ binario\ e\ nao\ com\ o\ ficheiro\ logs.\r\n
+comment2.params=nomeFicheiroBinario
+comment2.target=Models.TrazAqui\ carregaEstado(java.lang.String)
+comment2.text=\r\n\ Metodo\ que\ l\u00EA\ o\ estado\ dos\ nossos\ dados\ guardados\ em\ binario\r\n\ @param\ nomeFicheiroBinario\ nome\ do\ ficheiro\ onde\ contem\ os\ dados\ a\ ler.\r\n\ @return\ A\ estrutura\ carregado\ e\ pronta\ a\ utilizar.\r\n
+numComments=3

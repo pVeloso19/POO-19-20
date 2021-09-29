@@ -1,0 +1,148 @@
+package Views;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class View_Historico {
+
+    /**
+     * Variaveis Instancia
+     */
+    private List<String> historico;
+
+    /**
+     * Construtor Parametrizado de View_Historico
+     * Aceita como parametros os valores para cada Variavel de Instancia
+     */
+    public View_Historico(List<String> l){
+        this.historico = new ArrayList<>(l);
+    }
+
+    /**
+     * Devolve o resultado de andar com o indice de uma pagina
+     * para a frente
+     *
+     * @param index correspondente ao indice
+     * @param totalPaginas correspondente a um total de paginas
+     * @return indice incrementado
+     */
+    private int avancaPagina(int index, int totalPaginas){
+        if(index < totalPaginas-1) index++;
+        return index;
+    }
+
+    /**
+     * Devolve o resultado de andar uma pagina para tras
+     *
+     * @param index correspondente ao indice
+     * @return indice decrementado
+     */
+    private int recuaPagina(int index){
+        if(index > 0) index--;
+        return index;
+    }
+
+    /**
+     * Apresenta no ecra as opcoes da seccao Historico
+     *
+     * @param totalPaginas representa total de paginas
+     * @param paginaAtual representa a pagina atual
+     */
+    private void showOpcoes(int totalPaginas, int paginaAtual){
+        if(totalPaginas<=1){
+            System.out.println("Insira: S sair");
+        }
+        else {
+            if(paginaAtual == 1){
+                System.out.println("Insira: "+String.format("Página %d/%d ",paginaAtual,totalPaginas)+"| + próxima página | S sair");
+            }
+            else{
+                if(paginaAtual==totalPaginas){
+                    System.out.println("Insira: "+String.format("Página %d/%d ",paginaAtual,totalPaginas)+"| - página anterior | S sair");
+                }
+                else{
+                    System.out.println("Insira: "+String.format("Página %d/%d ",paginaAtual,totalPaginas)+"| + próxima página | - página anterior | S sair");
+                }
+            }
+
+        }
+    }
+
+    /**
+     * Apresenta no ecra o menu da seccao Historico
+     *
+     * @param index correspondente ao indice
+     * @param tamPag correspondente ao tamanho da pagina
+     * @param elem correspondente aos elementos
+     */
+    private void showMenu(int index, int tamPag, int elem){
+        int pos = (index*tamPag);
+        for (int i=0; i<tamPag; i++){
+            if(pos<elem){
+                System.out.println(this.historico.get(pos));
+                pos++;
+            }else{
+                System.out.println("---");
+            }
+        }
+    }
+
+    /**
+     * Quando nao houver mais informacao para ser apresentada, sao colocados tracos no ecra
+     *
+     * @param tamPag correspondente ao tamanho da pagina
+     */
+    private void showVazio(int tamPag){
+        for (int i=0; i<tamPag; i++){
+            System.out.println("---");
+        }
+    }
+
+    /**
+     * Funcao que corre a view com todas as funcoes anterioes, de maneira
+     * a interligar os diferentes processos
+     */
+    public void run(){
+        String opcao;
+        int index = 0;
+        int tamPag = 8;
+        int elem = this.historico.size();
+        int totalPaginas = (elem<8)?1:((elem%8==0)?elem/8:(elem/8)+1);
+
+        if(elem==0){
+            do {
+                this.showVazio(tamPag);
+                this.showOpcoes(totalPaginas, index + 1);
+                opcao = LeituraDados.lerString();
+                opcao = opcao.toUpperCase();
+            }
+            while (!opcao.equals("S"));
+        }
+        else {
+            do {
+                this.showMenu(index, tamPag, elem);
+                this.showOpcoes(totalPaginas, index + 1);
+                opcao = LeituraDados.lerString();
+                opcao = opcao.toUpperCase();
+
+                switch (opcao) {
+                    case "+": {
+                        index = this.avancaPagina(index, totalPaginas);
+                        break;
+                    }
+
+                    case "-": {
+                        index = this.recuaPagina(index);
+                        break;
+                    }
+
+                    case "S": {
+                        break;
+                    }
+                }
+
+            }
+            while (!opcao.equals("S"));
+        }
+    }
+}

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=View_Historico
+comment1.params=l
+comment1.target=View_Historico(java.util.List)
+comment1.text=\r\n\ Construtor\ Parametrizado\ de\ View_Historico\r\n\ Aceita\ como\ parametros\ os\ valores\ para\ cada\ Variavel\ de\ Instancia\r\n
+comment2.params=index\ totalPaginas
+comment2.target=int\ avancaPagina(int,\ int)
+comment2.text=\r\n\ Devolve\ o\ resultado\ de\ andar\ com\ o\ indice\ de\ uma\ pagina\r\n\ para\ a\ frente\r\n\r\n\ @param\ index\ correspondente\ ao\ indice\r\n\ @param\ totalPaginas\ correspondente\ a\ um\ total\ de\ paginas\r\n\ @return\ indice\ incrementado\r\n
+comment3.params=index
+comment3.target=int\ recuaPagina(int)
+comment3.text=\r\n\ Devolve\ o\ resultado\ de\ andar\ uma\ pagina\ para\ tras\r\n\r\n\ @param\ index\ correspondente\ ao\ indice\r\n\ @return\ indice\ decrementado\r\n
+comment4.params=totalPaginas\ paginaAtual
+comment4.target=void\ showOpcoes(int,\ int)
+comment4.text=\r\n\ Apresenta\ no\ ecra\ as\ opcoes\ da\ seccao\ Historico\r\n\r\n\ @param\ totalPaginas\ representa\ total\ de\ paginas\r\n\ @param\ paginaAtual\ representa\ a\ pagina\ atual\r\n
+comment5.params=index\ tamPag\ elem
+comment5.target=void\ showMenu(int,\ int,\ int)
+comment5.text=\r\n\ Apresenta\ no\ ecra\ o\ menu\ da\ seccao\ Historico\r\n\r\n\ @param\ index\ correspondente\ ao\ indice\r\n\ @param\ tamPag\ correspondente\ ao\ tamanho\ da\ pagina\r\n\ @param\ elem\ correspondente\ aos\ elementos\r\n
+comment6.params=tamPag
+comment6.target=void\ showVazio(int)
+comment6.text=\r\n\ Quando\ nao\ houver\ mais\ informacao\ para\ ser\ apresentada,\ sao\ colocados\ tracos\ no\ ecra\r\n\r\n\ @param\ tamPag\ correspondente\ ao\ tamanho\ da\ pagina\r\n
+comment7.params=
+comment7.target=void\ run()
+comment7.text=\r\n\ Funcao\ que\ corre\ a\ view\ com\ todas\ as\ funcoes\ anterioes,\ de\ maneira\r\n\ a\ interligar\ os\ diferentes\ processos\r\n
+numComments=8

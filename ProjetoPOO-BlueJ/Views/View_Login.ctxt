@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=View_Login
+comment1.params=controller
+comment1.target=View_Login(Controllers.I_Controllers)
+comment1.text=\r\n\ Construtor\ Parametrizado\ de\ View_Historico\r\n\ Aceita\ como\ par\u00C3\u00A2metros\ os\ valores\ para\ cada\ Vari\u00C3\u00A1vel\ de\ Inst\u00C3\u00A2ncia\r\n
+comment2.params=
+comment2.target=void\ criarContaUtilizador()
+comment2.text=\r\n\ Sub\ menu\ correspondente\ a\ criacao\ de\ conta\ de\ um\ Utilizador\r\n
+comment3.params=
+comment3.target=void\ criarContaVoluntario()
+comment3.text=\r\n\ Sub\ menu\ correspondente\ a\ criacao\ de\ conta\ de\ um\ Voluntario\r\n
+comment4.params=
+comment4.target=void\ criarContaTransportadora()
+comment4.text=\r\n\ Sub\ menu\ correspondente\ a\ criacao\ de\ conta\ de\ uma\ Transportadora\r\n
+comment5.params=
+comment5.target=void\ criarContaLoja()
+comment5.text=\r\n\ Sub\ menu\ correspondente\ a\ criacao\ de\ conta\ de\ uma\ Loja\r\n
+comment6.params=
+comment6.target=void\ run()
+comment6.text=\r\n\ Funcao\ que\ corre\ a\ view\ com\ todas\ as\ funcoes\ anterioes,\ de\ maneira\r\n\ a\ interligar\ os\ diferentes\ processos\r\n
+numComments=7

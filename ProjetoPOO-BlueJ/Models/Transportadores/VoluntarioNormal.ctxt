@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=VoluntarioNormal
+comment1.params=
+comment1.target=VoluntarioNormal()
+comment1.text=\r\n\ Construtor\ por\ Omissao\r\n
+comment2.params=codVoluntario\ nomeVoluntario\ cord\ raio
+comment2.target=VoluntarioNormal(java.lang.String,\ java.lang.String,\ Models.Utilizador.GPS,\ double)
+comment2.text=\r\n\ Construtor\ Parametrizado\ de\ VoluntarioNormal\r\n\ Aceita\ como\ parametros\ os\ valores\ para\ cada\ Variavel\ de\ Instancia\r\n
+comment3.params=v
+comment3.target=VoluntarioNormal(VoluntarioNormal)
+comment3.text=\r\n\ Construtor\ de\ copia\ de\ um\ VoluntarioEspecial\r\n\ Aceita\ como\ parametros\ outro\ VoluntarioEspecial\ e\ utiliza\ os\ metodos\r\n\ de\ acesso\ aos\ valores\ das\ Variaveis\ de\ Instancia\r\n
+comment4.params=
+comment4.target=boolean\ aceitoTransporteMedicamentos()
+comment4.text=\r\n\ Como\ se\ trata\ de\ um\ Voluntario\ Normal,\ nunca\ ira\ transportar\ medicamentos\r\n\r\n\ @return\ sempre\ false\r\n
+comment5.params=p
+comment5.target=boolean\ aceitaCaracteristicasEncomenda(Models.Sistema.PedidoLoja)
+comment5.text=\r\n\ Determina\ se\ aceita\ caracteristicas\ da\ encomenda,\ caso\ esta\ contenha\ algum\ tipo\ de\r\n\ medicamento\r\n\r\n\ @param\ p\ correspondente\ ao\ PedidoLoja\r\n\ @return\ true\ se\ aceitar\ transportar\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Permite\ apresentar\ no\ ecra\ as\ informa\u00E7oes\ necessarias\r\n\r\n\ @return\ String\ com\ infotma\u00E7\u00E3o\ da\ Classe\r\n
+comment7.params=o
+comment7.target=boolean\ equals(java.lang.Object)
+comment7.text=\r\n\ Verifica\ se\ 2\ Objects\ s\u00C3o\ iguais\r\n\r\n\ @return\ true\ se\ Object\ for\ igual\ ao\ Voluntario\r\n
+comment8.params=
+comment8.target=VoluntarioNormal\ clone()
+comment8.text=\r\n\ Cria\ copia\ da\ VoluntarioNormal\r\n\r\n\ @return\ VoluntarioNormal\ correspondente\ \u00E1\ sua\ Copia\r\n
+numComments=9

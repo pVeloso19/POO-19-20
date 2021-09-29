@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TrazerAquiApp
+comment1.params=
+comment1.target=Models.TrazAqui\ carregaSitemaBinario()
+comment1.text=\r\n\ Metodo\ que\ carrega\ os\ dados\ para\ o\ sistema.\r\n\ Tenta\ carregar\ os\ dados\ em\ formato\ bin\u00E1rio\ que\ permite\ recuperar\ o\ estado\ do\ ponto\ de\ paragem\r\n\ Em\ caso\ de\ erro\ volta\ a\ recarregar\ os\ dados\ default\ que\ est\u00E3o\ no\ ficheiro\ logs.\r\n\ Se\ n\u00E3o\ conseguir\ ler\ os\ dados\ de\ nenhum\ dos\ ficheiros\ sai\ com\ codigo\ de\ erro\ 1.\r\n\ @return\ o\ estado\ carregado\ do\ sistema.\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
