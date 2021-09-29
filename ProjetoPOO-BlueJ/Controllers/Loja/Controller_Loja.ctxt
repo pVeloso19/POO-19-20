@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Controller_Loja
+comment1.params=s\ codLoja
+comment1.target=Controller_Loja(Models.TrazAqui,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ Parametrizado\ de\ Controller_Loja\r\n\ Aceita\ como\ parametros\ os\ valores\ para\ cada\ Variavel\ de\ Instancia\r\n
+comment2.params=opcao
+comment2.target=void\ processa(java.util.List)
+comment2.text=\r\n\ Com\ base\ nos\ inputs\ do\ Utilizador,\ tratamos\ nos\ orientar\ na\ nos\ Menus\ da\ Loja\r\n\r\n\ @param\ opcao\ correspondente\ a\ lista\ de\ opcoes\ inseridas\ pelo\ Utilizador\r\n
+numComments=3

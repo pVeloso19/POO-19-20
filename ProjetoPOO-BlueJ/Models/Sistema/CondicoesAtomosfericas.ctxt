@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CondicoesAtomosfericas
+comment1.params=estadoTempo
+comment1.target=CondicoesAtomosfericas(int)
+comment1.text=\r\n\ Construtor\ das\ condicoes\ atmosfericas,\ dado\ um\ estado\ tempo\r\n\r\n\ @param\ estadoTempo\ correspondente\ ao\ inteiro\ do\ estado\ de\ Tempo\r\n
+comment2.params=
+comment2.target=int\ getEstadoTempo()
+comment2.text=\r\n\ Devolve\ inteiro\ do\ estado\ de\ tempo\r\n\r\n\ @return\ valor\ do\ estado\ de\ tempo\ atual\r\n
+comment3.params=valor
+comment3.target=boolean\ equals(int)
+comment3.text=\r\n\ Verifica\ se\ dois\ estados\ de\ tempo\ sao\ iguais\r\n\r\n\ @param\ valor\ correspondente\ a\ um\ estado\ de\ tempo\r\n\ @return\ true\ caso\ sejam\ iguais\r\n
+numComments=4

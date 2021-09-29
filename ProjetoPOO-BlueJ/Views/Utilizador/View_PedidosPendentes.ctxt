@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=View_PedidosPendentes
+comment1.params=pedidosPendentes\ c\ notificacoes
+comment1.target=View_PedidosPendentes(java.util.List,\ Controllers.I_Controllers,\ java.util.List)
+comment1.text=\r\n\ Construtor\ Parametrizado\ de\ View_PedidosPendentes\r\n\ Aceita\ como\ parametros\ os\ valores\ para\ cada\ Variavel\ de\ Instancia\r\n
+comment2.params=
+comment2.target=void\ listaTransportadorasPendentes()
+comment2.text=\r\n\ Maneira\ como\ ira\ ser\ apresentado\ no\ ecra\ os\ pedidos\ pendentes\r\n\ de\ uma\ transportadora\ e\ onde\ se\ analiza\ o\ input\ desta,\ sabendo\r\n\ assim\ se\ pretende\ aceitar\ um\ pedido\ pendente\ ou\ nao.\ Conforme\ essa\r\n\ informacao,\ e\ "passada"\ a\ vez\ ao\ controller\ que\ tomara\ conta\ do\ programa\r\n
+comment3.params=index\ totalPaginas
+comment3.target=int\ avancaPagina(int,\ int)
+comment3.text=\r\n\ Devolve\ o\ resultado\ de\ andar\ com\ o\ indice\ de\ uma\ pagina\r\n\ para\ a\ frente\r\n\r\n\ @param\ index\ correspondente\ ao\ indice\r\n\ @param\ totalPaginas\ correspondente\ a\ um\ total\ de\ paginas\r\n\ @return\ indice\ incrementado\r\n
+comment4.params=index
+comment4.target=int\ recuaPagina(int)
+comment4.text=\r\n\ Devolve\ o\ resultado\ de\ andar\ uma\ pagina\ para\ tras\r\n\r\n\ @param\ index\ correspondente\ ao\ indice\r\n\ @return\ indice\ decrementado\r\n
+comment5.params=totalPaginas\ paginaAtual
+comment5.target=void\ showOpcoes(int,\ int)
+comment5.text=\r\n\ Apresenta\ as\ opcoes\ da\ transportadora\ na\ seccao\ de\ pedidos\ pendentes\ no\ ecra\r\n\r\n\ @param\ totalPaginas\ representa\ total\ de\ paginas\r\n\ @param\ paginaAtual\ representa\ a\ pagina\ atual\r\n
+comment6.params=index\ tamPag\ elem
+comment6.target=void\ showMenu(int,\ int,\ int)
+comment6.text=\r\n\ Apresenta\ no\ ecra\ menu\ dos\ pedidos\ pendentes\r\n\r\n\ @param\ index\ correspondente\ ao\ indice\r\n\ @param\ tamPag\ correspondente\ ao\ tamanho\ da\ pagina\r\n\ @param\ elem\ correspondente\ aos\ elementos\r\n
+comment7.params=tamPag
+comment7.target=void\ showVazio(int)
+comment7.text=\r\n\ Quando\ nao\ houver\ informacao\ a\ ser\ apresentada\ sao\ apresentados\ tracos\ no\ ecra\r\n\r\n\ @param\ tamPag\ correspondente\ ao\ tamanho\ da\ pagina\r\n
+comment8.params=
+comment8.target=void\ run()
+comment8.text=\r\n\ Funcao\ que\ corre\ a\ view\ com\ todas\ as\ funcoes\ anterioes,\ de\ maneira\r\n\ a\ interligar\ os\ diferentes\ processos\r\n
+numComments=9

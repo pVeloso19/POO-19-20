@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CodigoNotFoundException
+comment1.params=
+comment1.target=CodigoNotFoundException()
+comment2.params=erro
+comment2.target=CodigoNotFoundException(java.lang.String)
+numComments=3

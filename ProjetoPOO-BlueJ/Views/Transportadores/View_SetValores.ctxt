@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=View_SetValores
+comment1.params=t\ c
+comment1.target=View_SetValores(Models.Transportadores.I_Transportadores,\ Controllers.I_Controllers)
+comment1.text=\r\n\ Construtor\ Parametrizado\ de\ View_SetValores\r\n\ Aceita\ como\ parametros\ os\ valores\ para\ cada\ Variavel\ de\ Instancia\r\n
+comment2.params=
+comment2.target=void\ runVoluntario()
+comment2.text=\r\n\ Funcao\ que\ corre\ a\ view\ com\ todas\ as\ funcoes\ anterioes,\ de\ maneira\r\n\ a\ interligar\ os\ diferentes\ processos,\ inserindo\ o\ Voluntario\r\n\ informacoes\ sobre\ si\ para\ ajudar\ em\ futuros\ calculos\ e\ decisoes\r\n
+comment3.params=
+comment3.target=void\ runTransportadora()
+comment3.text=\r\n\ Funcao\ que\ corre\ a\ view\ com\ todas\ as\ funcoes\ anterioes,\ de\ maneira\r\n\ a\ interligar\ os\ diferentes\ processos,\ inserindo\ a\ Transportadora\r\n\ informacoes\ sobre\ si\ para\ ajudar\ em\ futuros\ calculos\ e\ decisoes\r\n
+comment4.params=
+comment4.target=void\ run()
+comment4.text=\r\n\ Funcao\ que\ corre\ a\ view\ com\ todas\ as\ funcoes\ anterioes,\ de\ maneira\r\n\ a\ interligar\ os\ diferentes\ processos,\ caso\ seja\ Transportadora\ ou\ Voluntario\r\n
+numComments=5

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Controller_UtilizadorAvalia
+comment1.params=cod\ s
+comment1.target=Controller_UtilizadorAvalia(java.lang.String,\ Models.TrazAqui)
+comment1.text=\r\n\ Construtor\ Parametrizado\ de\ Controller_UtilizadorAvalia\r\n\ Aceita\ como\ parametros\ os\ valores\ para\ cada\ Variavel\ de\ Instancia\r\n
+comment2.params=opcao
+comment2.target=void\ processa(java.util.List)
+comment2.text=\r\n\ Com\ base\ nos\ inputs\ do\ Utilizador,\ tratar\ de\ avaliar\ uma\ Transportadora\r\n\r\n\ @param\ opcao\ correspondente\ a\ lista\ de\ opcoes\ inseridas\ pelo\ Utilizador\r\n
+numComments=3

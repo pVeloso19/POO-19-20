@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=EstadoEstrada
+comment1.params=estadoEstrada
+comment1.target=EstadoEstrada(int)
+comment1.text=\r\n\ Construtor\ do\ EstadoEstrada,\ dado\ um\ estado\ de\ Estrada\r\n\r\n\ @param\ estadoEstrada\ correspondente\ ao\ inteiro\ do\ estado\ da\ estrada\r\n
+comment2.params=
+comment2.target=int\ getEstadoEstrada()
+comment2.text=\r\n\ Devolve\ inteiro\ do\ estado\ da\ estrada\r\n\r\n\ @return\ valor\ do\ estado\ da\ estrada\ atual\r\n
+comment3.params=valor
+comment3.target=boolean\ equals(int)
+comment3.text=\r\n\ Verifica\ se\ dois\ estados\ de\ estrada\ sao\ iguais\r\n\r\n\ @param\ valor\ correspondente\ a\ um\ estado\ de\ estrada\r\n\ @return\ true\ caso\ sejam\ iguais\r\n
+numComments=4

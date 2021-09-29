@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=View_Erro
+comment1.params=erro
+comment1.target=View_Erro(java.lang.String)
+comment1.text=\r\n\ Construtor\ Parametrizado\ de\ View_Erro\r\n\ Aceita\ como\ parametros\ os\ valores\ para\ cada\ Variavel\ de\ Instancia\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ Apresenta\ no\ ecra\ a\ mensagem\ de\ erro,\ esperando\ depois\ 1\ segundo\ antes\ de\ terminar\r\n
+numComments=3

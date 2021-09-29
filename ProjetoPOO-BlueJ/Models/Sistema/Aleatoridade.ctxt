@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Aleatoridade
+comment1.params=
+comment1.target=double\ geraTaxaAleatoridade()
+comment1.text=\r\n\ Funcao\ que\ define\ os\ nossos\ valores\ de\ Aleatoriedade\ que\ posteriormente\r\n\ afetarao\ quer\ o\ tempo,\ quer\ o\ preco\ de\ transporte.\ Basicamente,\ criamos\ um\ gerador\ gera\ um\ numero\ aleatorio\r\n\ de\ 0\ a\ 3\ e\ conforme\ o\ resultado,\ ira\ corresponder\ a\ um\ estado\ definido\ por\ nos(por\ exemplo,\r\n\ quando\ calha\ 1\ no\ estado\ do\ tempo\ atual,\ simboliza\ que\ o\ tempo\ esta\ nublado\ e\ assim\ para\ os\ outros\ tambem).\r\n\r\n\ @return\ double\ correspondente\ a\ taxa\ que\ sera\ acrescentada\ ao\ tempo\ de\ transporte\ e\ ao\ preco\ deste\r\n
+numComments=2

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=LeituraDados
+comment1.params=
+comment1.target=java.lang.String\ lerString()
+comment1.text=\r\n\ Le\ do\ stdin\r\n\r\n\ @return\ input\ do\ Utilizador\r\n
+comment2.params=
+comment2.target=java.lang.String\ lerIntComoString()
+comment2.text=\r\n\ Converter\ para\ String\ a\ opcao\ do\ Utilizador\r\n\r\n\ @return\ string\ correspodente\ ao\ Inteiro\r\n
+comment3.params=
+comment3.target=java.lang.String\ lerDoubleComoString()
+comment3.text=\r\n\ Converter\ para\ String\ a\ opcao\ do\ Utilizador\r\n\r\n\ @return\ string\ correspodente\ ao\ Double\r\n
+comment4.params=
+comment4.target=java.lang.String\ lerIntAnteriorComoString()
+comment4.text=\r\n\ Converter\ para\ String\ a\ opcao\ do\ Utilizador\r\n\r\n\ @return\ string\ correspodente\ ao\ Inteiro\ anterior\r\n
+numComments=5

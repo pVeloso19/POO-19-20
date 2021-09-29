@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ValorErradoException
+comment1.params=
+comment1.target=ValorErradoException()
+comment1.text=\r\n\ Construtor\ por\ Omissao\r\n
+comment2.params=erro
+comment2.target=ValorErradoException(java.lang.String)
+comment2.text=\r\n\ Construtor\ dada\ uma\ mensagem\ de\ erro\ que\ se\ pretenda\ apresentar\ no\ ecra\r\n\ quando\ um\ Valor\ nao\ cumpre\ certos\ requisitos\r\n\r\n\ @param\ erro\ correspondente\ a\ mensagem\ que\ se\ pretende\ mostrar\r\n
+numComments=3

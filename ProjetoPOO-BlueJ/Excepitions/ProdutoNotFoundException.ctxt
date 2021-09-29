@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ProdutoNotFoundException
+comment1.params=
+comment1.target=ProdutoNotFoundException()
+comment1.text=\r\n\ Construtor\ por\ Omissao\r\n
+comment2.params=erro
+comment2.target=ProdutoNotFoundException(java.lang.String)
+comment2.text=\r\n\ Construtor\ dada\ uma\ mensagem\ de\ erro\ que\ se\ pretenda\ apresentar\ no\ ecra\r\n\ quando\ um\ Produto\ nao\ existe\r\n\r\n\ @param\ erro\ correspondente\ a\ mensagem\ que\ se\ pretende\ mostrar\r\n
+numComments=3
